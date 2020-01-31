@@ -1,0 +1,25 @@
+{
+  "name": "alfrede.tencent.translate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "babel-node src/app.js",
+    "build": "rimraf lib && babel src -d lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.8.3",
+    "node-fetch": "^2.6.0",
+    "qs": "^6.9.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "rimraf": "^3.0.1"
+  }
+}
