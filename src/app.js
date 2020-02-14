@@ -66,7 +66,7 @@ function translate() {
     });
 }
 
-let t = db.has("t").value();
+let t = db.get("t").value();
 
 if (!t || (t && Math.floor((Date.now() - t) / 1000) > 60 * 60 * 60)) {
   fetch("https://fanyi.qq.com/", {
